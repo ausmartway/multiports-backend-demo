@@ -2,8 +2,8 @@ from threading import Thread
 from socketserver import ThreadingMixIn
 from http.server import HTTPServer, BaseHTTPRequestHandler
 
-PORT1 = 8087
-PORT2 = 8088
+PORT1 = 8088
+PORT2 = 8087
 
 class Handler(BaseHTTPRequestHandler):
     def do_GET(self):
